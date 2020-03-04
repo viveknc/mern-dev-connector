@@ -2,9 +2,10 @@
   "name": "mern-dev-connector",
   "version": "1.0.0",
   "description": "social netwrok for developers",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
